@@ -1,0 +1,12 @@
+#!/bin/bash
+
+cat $1 | while read text;
+do
+ echo "$text";
+  bash -c "date";
+ echo ;
+done;
+
+
+
+
